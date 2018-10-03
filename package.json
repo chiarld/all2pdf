@@ -1,0 +1,26 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "My resume",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run pdf",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pdf": "wkhtmltopdf index.html index.pdf"
+  },
+  "author": "Dan Chiarlone",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9",
+    "prince": "^1.5.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-html2pdf": "^0.1.3",
+    "gulp-markdown-pdf": "^6.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
